@@ -1,0 +1,39 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(to bottom, #4CAF50, #2E8B57); /* Green gradient background */
+    color: #fff; /* Text color */
+}
+
+#game-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#output {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+#guessInput {
+    margin-top: 20px;
+}
+
+#submitBtn, #newGameBtn {
+    font-size: 16px;
+    padding: 10px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+#newGameBtn {
+    background-color: #fff;
+    color: #333;
+}
